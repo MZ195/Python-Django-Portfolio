@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {% load staticfiles %}
+    {% load static %}
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -46,7 +46,7 @@
             <a class="nav-item nav-link" href="{% static 'resume.pdf' %}"
               >Resume</a
             >
-            <a class="nav-item nav-link active" href="{% url 'allblogs' %}"
+            <a class="nav-item nav-link active" href="{% url 'all_blogs' %}"
               >Blog</a
             >
           </div>
@@ -67,7 +67,7 @@
 
     <footer class="text-muted">
       <div class="container text-center">
-        <p>© Nick Walter {% now "Y" %}</p>
+        <p>© Mezo {% now "Y" %}</p>
       </div>
     </footer>
 
